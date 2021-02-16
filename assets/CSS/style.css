@@ -1,0 +1,31 @@
+
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    background-color: #ffffff;
+  }
+ .header{
+ background-color: #e5e5e5e5; 
+ width: 100%;  
+ }
+ .awesome__title{
+    text-align: center
+ }
+ .awesome__text{
+    text-align: center
+ }
+.description{
+    width: 300px; 
+  flex-wrap: nowrap;
+  
+}
+ .first{
+     margin-left: 30px;
+ }
+ .first-title{
+     font-weight: 600px;{
+ }
+ .lamp{
+     border: 1px solid #red;
+ }
