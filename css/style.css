@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .description_awesome-row {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 300px;
+  }
+  .awesome-row_item {
+      margin-bottom: 30px;
+      
+  }
+
+ .awesome-item_img {
+     width: 70px;
+     height: 70px;
+     border: 1px solid red;
+     border-radius: 50%;
+     padding-bottom: 50px;
+    
+
+     
+ }
+    
