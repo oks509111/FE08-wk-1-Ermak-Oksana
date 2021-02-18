@@ -41,7 +41,8 @@
   }
 
 .description_awesome-row {
-    margin: 30px 30px 30px 250px;
+    margin-top: 30px;
+    margin-left: 45px;
     width: 350px;
     height: 225px;
     display: flex;
