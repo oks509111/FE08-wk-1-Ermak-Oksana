@@ -1,0 +1,44 @@
+.social {
+background-color: #f8efef;
+padding: 30px 0;
+}
+.social-row {  
+display: flex;
+justify-content: space-between;
+    
+}
+.social-row_list {
+    width: 365px;
+}
+.social-row_title {
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+line-height: 27px;
+text-transform:capitalize;
+color: #333333; 
+font-weight: bold;
+padding-bottom: 14px;
+}
+
+.social-row_text {
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+line-height: 19px;
+color: #86878b; 
+font-weight: normal;
+}
+.social_icon_name {
+    padding: 0 20px;
+    display: inline-block;
+    font-size: 50px;
+    color: #86878b; 
+}
+
+
+.social_icon_name:hover {
+    transform: translate(20px,20px);
+    transition: 0.3s;
+}
+

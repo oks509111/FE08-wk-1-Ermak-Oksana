@@ -1,0 +1,34 @@
+.footer {
+background-color: black;
+
+}
+.footer_block {
+    padding: 20px 0;
+}
+.social_icon {
+    text-align: center;
+}
+.social_icon_name_1 {
+    padding: 0 10px;
+    display: inline-block;
+    font-size: 20px;
+    color: white; 
+    padding: 10px 10px;
+}
+.social_icon_name_1:hover {
+    transform: translate(5px,5px);
+}
+
+
+.producer {
+    color: white;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 10px;
+}
+
