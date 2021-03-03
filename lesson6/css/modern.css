@@ -1,0 +1,152 @@
+.modern {
+width: 100%;
+background-image: url(../images/modern.png);
+padding: 109px 0;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+.modern::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.modern_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.modern_row_logo {
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+padding-bottom: 32px;
+color: #FFFFFF;
+font-family: 'Roboto', sans-serif;;
+}
+
+.colortext {
+    color: #ec7979;   
+}
+
+.modern_row_title {
+    width: 544px;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    padding-bottom: 32px;
+}
+
+.modern_row_title::after {
+content: "";
+display: block;
+border-bottom: 1px solid #ffffff;
+width: 60px;
+padding-bottom: 39px;
+}
+
+.modern_row_text {
+    width: 282px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color:rgba(255, 255, 255, 0.8);
+    padding-bottom: 39px;
+}
+
+.modern_button_text {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+   padding: 11px 24px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+}
+.modern_button_text:hover{
+    background-color: chocolate;
+    text-decoration: underline;
+    transition: 0.3s;
+    color: black;
+}
+
+.content {
+    width: 370px;
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    
+}
+
+.content_title {
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    font-family: Open Sans;
+    padding: 10px 0 20px 0;
+}
+.content_item {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #bdbdbd;
+    padding: 16px 59px;
+    
+}
+
+.content_input_1 {
+    border: 0;
+    border-bottom: 1px solid  #bdbdbd;
+    padding: 5px 0;
+    width: 252px;
+}
+
+.content_button {
+    text-align: center; 
+}
+
+
+.content_button_text {
+    width: 370px;
+    background-color: #ec7979;
+    color: #ffffff;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 20px;
+    font-family: Open Sans;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0;
+    font-weight: 600;
+    border: 0;
+    border-bottom: 5px;
+    transition: 0.3s;
+    
+}
+
+.content_button_text:hover {
+    text-decoration: underline;
+    color: black;
+}
+
