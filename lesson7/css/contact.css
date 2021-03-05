@@ -1,0 +1,112 @@
+.contact {
+    width: 100%;
+    
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 44px;
+}
+.contact_title {
+    text-align: center;
+    color: #212121;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: 'Raleway', sans-serif;
+    width: 400;
+    text-transform: uppercase;
+}
+.contact_title::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #e72424;
+    width: 64px;
+    margin: 34px auto;  
+}
+.contact_text {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    font-family: 'Open Sans', sans-serif;
+    margin: 34px 0 91px 0;
+}
+
+.form-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+@media (max-width: 1075px) {
+    .form-content {
+        flex-direction: column;
+    }
+}
+
+.content_label {
+    margin-top: 10px;
+    display: block;
+}
+
+.content_imput {
+    display: block;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid  #bdbdbd;
+    padding-top: 16px;
+    width: 478.01px;
+    padding: 10px 0;
+}
+
+.content_messege {
+    display: block;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #bdbdbd;  
+    
+}
+
+
+
+.message_textarea {
+    display: block;
+    border: 0;
+    border-bottom: 1px solid  #bdbdbd;
+    margin-bottom: 20px;
+    width: 478.01px;
+    height: 183px;
+    resize: horizontal;  
+    resize: none;  
+}
+
+
+
+.input_send {
+    text-align: center; 
+  
+}
+
+.send_message {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal; 
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    background-color:  #EC7979;
+    padding: 11px 32px;
+    color: #ffffff;
+    border: 0;
+    transition: 0.3s;
+}
+
+
+.send_message:hover {
+    color: black;
+}
+

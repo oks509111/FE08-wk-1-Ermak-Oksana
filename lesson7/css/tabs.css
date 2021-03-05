@@ -1,0 +1,122 @@
+.tabs-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 126px 0;
+}
+
+@media (max-width: 1075px) {
+    .tabs-row {
+        padding: 30px 0;
+        flex-direction: column;
+        
+    }
+}
+
+
+.tabs_item_block_name {
+    padding: 42px 35px;
+    margin-bottom: 10px;
+    background-color: #333333;
+    border-radius: 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
+
+@media (max-width: 1075px) {
+    .tabs_item_block {
+        display: flex; 
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1075px) {
+    .tabs_item_block_name {
+        margin-left: 10px; 
+    }
+}
+
+.tabs_colar {
+background-color: #EC7979;
+}
+
+.tabs_item_inform {
+    width: 572px; 
+}
+
+@media (max-width: 1075px) {
+    .tabs_item_inform  {
+        width: 100%; 
+    }
+}
+
+
+.tabs_item_title {
+    font-size: 20px;
+    line-height: 27px;  
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    margin-bottom: 58px;
+}
+
+@media (max-width: 1075px) {
+    .tabs_item_title {
+        margin-bottom: 30px;  
+        text-align: center; 
+    }
+}
+
+.tabs_item_text {
+    font-size: 14px;
+    line-height: 19px; 
+    color: #86878b;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    margin-bottom: 89px;
+}
+
+@media (max-width: 1075px) {
+    .tabs_item_text{
+        margin-bottom: 40px;  
+        text-align: center; 
+    }
+}
+
+@media (max-width: 1075px) {
+    .tabs_item_button{
+        margin-bottom: 40px;   
+        text-align: center;
+    }
+}
+
+.tabs_item_text_1 {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.tabs_item_button_text {
+    padding: 11px 25px;
+    background-color: #EC7979;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 20px;
+    
+}
+
+.tabs_item_button_text:hover {
+color: #EC7979;
+background-color: black;
+transition: 0.5s;
+}
+
+@media (max-width: 1075px) {
+    .tabs_item_city{  
+        text-align: center;
+    }
+}

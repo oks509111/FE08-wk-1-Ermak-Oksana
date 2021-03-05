@@ -1,0 +1,61 @@
+.social {
+background-color: #f8efef;
+padding: 30px 0;
+
+}
+.social-row {  
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.social-row_list {
+width: 356px;
+}
+
+.social-row_title {
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+line-height: 27px;
+text-transform:capitalize;
+color: #333333; 
+font-weight: bold;
+padding-bottom: 14px;
+}
+
+.social-row_text {
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+line-height: 19px;
+color: #86878b; 
+font-weight: normal;
+}
+.social_icon_1 {
+    flex-wrap: wrap;
+    width: 684px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_icon_name {
+    display: inline-block;
+    color: #86878b; 
+    font-size: 50px;
+    transition: 0.3s 0.1s; 
+    padding: 0 20px;
+}
+
+@media (max-width: 940px) {
+    .social_icon_name {
+        font-size: 40px;
+    }
+}
+
+.social_icon_name:hover {
+    transform: translate(10px,10px);
+    color: slateblue;
+    
+}
+
